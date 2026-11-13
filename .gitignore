@@ -1,0 +1,22 @@
+# 가상환경, 빌드 결과
+.venv/
+**/bin/
+**/obj/
+__pycache__/
+*.pyc
+
+# 데이터셋(용량이 큼): README 안내대로 Roboflow 에서 받는다
+data/
+
+# 실행하면 생기는 파일 (사용자마다 다름)
+captures/
+records.db
+app/settings.json
+crash.log
+**/crash.log
+
+# 학습 결과 폴더, 서버 기본 모델(내려받을 수 있고 용량이 큼)
+runs/
+output/
+server/yolov8*.pt
+server/hardhat/

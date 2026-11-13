@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SafeEye</RootNamespace>
+    <AssemblyName>SafeEye</AssemblyName>
+    <!-- 프로그램 기본 글꼴: 윈도우 기본 한글 글꼴 -->
+    <ApplicationDefaultFont>Malgun Gothic, 9pt</ApplicationDefaultFont>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- SQLite(기록 저장용 DB)를 쓰기 위한 패키지 -->
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.*" />
+  </ItemGroup>
+
+</Project>
